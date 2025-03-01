@@ -1,0 +1,13 @@
+.css-header{
+    border-bottom: 0.5px solid black;
+    padding-bottom: 5px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+
+header .css-website-logo{
+    margin-left: 5px;
+}
