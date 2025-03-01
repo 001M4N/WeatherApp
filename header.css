@@ -6,6 +6,7 @@
     margin-right: 10px;
     font-weight: bold;
     align-items: center;
+    justify-content: space-between;
 }
 
 header .css-website-logo{

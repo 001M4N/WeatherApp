@@ -4,7 +4,7 @@ header .css-website-logo img{
 
 .css-search{
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: center
 }
 
@@ -17,6 +17,7 @@ header .css-website-logo img{
     border: 0.5px solid black;
     transition: opacity 0.15s;
     padding-inline: 5px;
+    box-shadow: inset;
 }
 
 .css-search input:hover{
@@ -37,4 +38,22 @@ header .css-website-logo img{
 
 .css-search button:active{
     opacity: 50%;
+}
+
+.css-weather-stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.css-temperature{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.css-city-name{
+    font-size: 20px;
+    margin-top: -3px;
 }
