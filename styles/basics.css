@@ -5,3 +5,8 @@
 body{
     background-image: linear-gradient(to bottom, white, black);
 }
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
