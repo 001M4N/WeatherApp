@@ -1,0 +1,12 @@
+*{
+    font-family: Sriracha, Arial, Helvetica, sans-serif
+}
+
+body{
+    background-image: linear-gradient(to bottom, white, white);
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}

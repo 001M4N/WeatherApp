@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/basics.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Charm:wght@400;700&family=Merienda:wght@300..900&family=Mitr:wght@200;300;400;500;600;700&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="css-header">
+        <div class="css-website-name">
+            WeatherApp
+        </div>
+        <div class="css-website-logo">
+            <img src="assets/websiteLogo.svg">
+        </div>
+    </header>
+    <main>
+        <form class="css-search">
+            <input type="text" placeholder="Search">
+            <button>
+                <img src="assets/search.svg">
+            </button>
+        </form>
+        <div class="css-weather-stat js-weather-stat">
+            <p class="searching_status js-searching_status"></p>
+            <p class="css-temperature js-temperature"></p>
+            <P class="css-city-name js-city-name"></P>
+            <time class="css-current-time js-current-time"></time>
+            <img class="css-airCondition-logo js-airCondition-logo">
+            <p class="css-weather-condition js-weather-condition"></p>
+        </div>
+    </main>
+</body>
+
+<script src="js/controller.js" type="module"></script>
+
+</html>
