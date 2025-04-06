@@ -1,5 +1,6 @@
 export const model = (function(){
     const api_key = process.env.weatherAPI;
+    console.log(api_key);
     const api_url = `https://api.weatherapi.com/v1/current.json`;
 
     const fetch_weather_stat = async (city_name) => {
